@@ -10,7 +10,7 @@ function App() {
 
       {/* Main Content */}
       <main className="main-content">
-        <h1>Welcome to YAZH FASHION</h1>
+        <h1>Welcome to Yash Fashion</h1>
         <p>Explore our trendy collections and amazing offers!</p>
       </main>
 
