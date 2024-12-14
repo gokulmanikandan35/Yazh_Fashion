@@ -1,0 +1,133 @@
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeInHeader 1s ease-out; /* Refined fade-in animation for header */
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e91e63;
+    margin-left: 50px;
+    opacity: 0;
+    animation: slideInLogo 1s ease-out 0.3s forwards; /* Smooth slide-in */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 70px;
+    margin-right: 60px;
+    opacity: 0;
+    animation: slideInNavLinks 1s ease-out 0.5s forwards; /* Smooth slide-in with delay */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #e91e63;
+    transform: translateY(-5px); /* Subtle hover effect */
+  }
+  
+  /* Search Bar */
+  .header-search .search-bar {
+    padding: 15px 30px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+    margin-right: 90px;
+    text-align: left;
+    opacity: 0;
+    animation: fadeInSearchBar 1s ease-out 0.8s forwards; /* Refined fade-in */
+  }
+  
+  .search-bar:focus {
+    border-color: #e91e63;
+  }
+  
+  /* Cart Icon */
+  .cart-icon {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    margin-right: 50px;
+    opacity: 0;
+    animation: fadeInCartIcon 1s ease-out 1s forwards; /* Refined fade-in */
+  }
+  
+  .cart-icon:hover {
+    color: #e91e63;
+    transform: scale(1.1); /* Smooth zoom effect */
+  }
+  
+  /* Keyframe Animations */
+  
+  /* Fade-in header */
+  @keyframes fadeInHeader {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Slide-in animation for logo */
+  @keyframes slideInLogo {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Slide-in animation for nav links */
+  @keyframes slideInNavLinks {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Fade-in animation for search bar */
+  @keyframes fadeInSearchBar {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Fade-in animation for cart icon */
+  @keyframes fadeInCartIcon {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
