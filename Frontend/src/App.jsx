@@ -10,13 +10,13 @@ function App() {
 
       {/* Main Content */}
       <main className="main-content">
-        <h1>Welcome to Ladies' Dress Shop</h1>
+        <h1>Welcome to YAZH FASHION</h1>
         <p>Explore our trendy collections and amazing offers!</p>
       </main>
 
       {/* Footer */}
       <footer className="footer">
-        <p>© 2024 Ladies' Dress Shop. All rights reserved.</p>
+        <p>© 2024 YAZH FASHION . All rights reserved.</p>
       </footer>
     </div>
   );
