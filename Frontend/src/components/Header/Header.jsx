@@ -49,6 +49,7 @@ const Header = () => {
           <a href="/">Home</a>
           <a href="/products">Products</a>
           <a href="/profile">Profile</a>
+          <a href="/category">Category</a>
         </nav>
 
         {/* Cart Icon */}
