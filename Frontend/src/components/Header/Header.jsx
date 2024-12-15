@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./Header.css";
 import data from "./indiaStatesDistricts.json"; // Import JSON file for districts
-import Western from "../../assets/Nav pic/Western.png";
-import Kids from "../../assets/Nav pic/Kids.png";
-import Sports from "../../assets/Nav pic/Sports wear.png";
-import Tshirt from "../../assets/Nav pic/t'shirt and track.png";
-import Ethnic from "../../assets/Nav pic/ethnic wear.png";
+// import Western from "../../assets/Nav pic/Western.png";
+// import Kids from "../../assets/Nav pic/Kids.png";
+// import Sports from "../../assets/Nav pic/Sports wear.png";
+// import Tshirt from "../../assets/Nav pic/t'shirt and track.png";
+// import Ethnic from "../../assets/Nav pic/ethnic wear.png";
 
 const Header = () => {
   const [selectedDistrict, setSelectedDistrict] = useState(""); // Store selected district
