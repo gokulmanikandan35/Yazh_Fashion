@@ -48,7 +48,6 @@ const Header = () => {
         <nav className="nav-links">
           <a href="/">Home</a>
           <a href="/products">Products</a>
-          <a href="/categories">Categories</a>
           <a href="/profile">Profile</a>
         </nav>
 
@@ -59,7 +58,7 @@ const Header = () => {
       </header>
 
       {/* Secondary Navbar */}
-      <nav className="secondary-navbar">
+      {/* <nav className="secondary-navbar">
         <a href="/women-western">
           <img src={Western} alt="Women Western" />
           Women Western
@@ -80,7 +79,7 @@ const Header = () => {
           <img src={Sports} alt="Sports Wear" />
           Sports Wear
         </a>
-      </nav>
+      </nav> */}
     </>
   );
 };
